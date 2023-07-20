@@ -72,19 +72,29 @@ function App(){
   //     padding : 16
   //  };
   //  return <div style={style}>{name}</div>
-  const name = "React"; 
+  const name = "React Hello"; 
 
+  // return (
+  //   <div style={{
+  //     backgroundColor : 'black', 
+  //     color : 'aqua', 
+  //     fontSize : '48px', 
+  //     fontWeight : 'bold', 
+  //     padding : 16
+  //   }}
+  //   >
+  //     {name}
+  //   </div>
+  // )
+
+  //return <div className="react">{name}</div>
   return (
-    <div style={{
-      backgroundColor : 'black', 
-      color : 'aqua', 
-      fontSize : '48px', 
-      fontWeight : 'bold', 
-      padding : 16
-    }}
-    >
-      {name}
-    </div>
+    <>
+      <div className="react" >{name}</div>
+      <input/>
+
+    </>
   )
+
 }
 export default App;
