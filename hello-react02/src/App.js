@@ -3,6 +3,7 @@ import './App.css';
 import React, {Component} from "react"; 
 import MyComponent from "./MyComponent"; 
 import Counter from './Counter';
+import Say from "./Say";
 
 // class App extends Component {
 //   render(){
@@ -28,8 +29,11 @@ import Counter from './Counter';
 // }
 
 const App= () => {
+  // return (
+  //   <Counter/>
+  // );
   return (
-    <Counter/>
+    <Say />
   );
 }
 export default App;
